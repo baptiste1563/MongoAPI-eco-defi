@@ -3,7 +3,7 @@ generator client {
 }
 
 datasource db {
- provider = "mongodb"
+  provider = "mongodb"
   url      = "mongodb://USERNAME:PASSWORD@HOST/DATABASE?authSource=admin&retryWrites=true&w=majority"
 }
 
